@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-page {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 50px); /* Adjust the size as needed */
+    grid-template-rows: repeat(3, 50px); /* Adjust the size as needed */
+    gap: 2px; /* Adjust the gap between cells */
+    margin-top: 20px;
+}
+
+.board .cell {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.scoreboard {
+    margin-top: 20px;
+}
+
+.score {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
